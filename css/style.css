@@ -47,6 +47,8 @@ main {
     margin: auto;
 }
 
+/* offer section */
+
 .offer_section {
     display: flex;
     flex-direction: column;
@@ -77,5 +79,50 @@ main {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-margin-bottom: 48px;
+    margin-bottom: 48px;
 }
+
+/* Mid night party */
+.night_party {
+    margin-top: 120px;
+    text-align: left;
+    width: 100%;
+    background: url('../images/midnight\ shadow.png'), url('../images/2024.png') right 130px center, url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 126px 497px 142px 126px;
+}
+
+.night_party h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 5px 0px;
+    margin-bottom: 24px;
+}
+
+.night_party p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.night_party button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    margin: 48px 0px 0px 36px;
+    cursor: pointer;
+}
+
+/* event location */
+
