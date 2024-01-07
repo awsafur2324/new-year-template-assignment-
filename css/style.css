@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header part */
+
+.banner {
+    width: 1320px;
+    height: 600px;
+    background:url('../images/darkshadow.jpg'), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner h4 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner h2 {
+
+    width: 630px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    align-self: center;
+    padding: 15px;
+}
