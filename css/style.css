@@ -329,7 +329,7 @@ main {
 
 .box {
     z-index: 1;
-border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
 }
 
 .discount {
@@ -400,7 +400,7 @@ border-radius: 15px 0 0 15px;
 }
 
 /* Subscribe part */
-.subscribe{
+.subscribe {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -411,10 +411,12 @@ border-radius: 15px 0 0 15px;
     background-color: rgba(1, 16, 19, 0.103);
     box-shadow: 5px 10px 5px -5px rgba(0, 0, 0, 0.521);
 }
-.subscribe>img{
+
+.subscribe>img {
     margin-top: 60px;
 }
-.subscribe>h2{
+
+.subscribe>h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -422,7 +424,8 @@ border-radius: 15px 0 0 15px;
     text-align: center;
     margin: 10px 0 10px 0;
 }
-.subscribe>p{
+
+.subscribe>p {
     text-align: center;
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
@@ -433,15 +436,16 @@ border-radius: 15px 0 0 15px;
     margin-bottom: 30px;
 }
 
-.subscribe>.sub_form{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-margin: 0 0 100px 0;
-border: none;
+.subscribe>.sub_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 100px 0;
+    border: none;
 }
-.subscribe>.sub_form>input[type="email"]{
+
+.subscribe>.sub_form>input[type="email"] {
     width: 400px;
     padding: 20px;
     border-radius: 25px 0 0 25px;
@@ -451,7 +455,8 @@ border: none;
     font-size: 15px;
     transition: all 200ms ease-in-out;
 }
-.subscribe>.sub_form>input[type="email"]:focus{
+
+.subscribe>.sub_form>input[type="email"]:focus {
     color: rgb(0, 0, 0);
     border: none;
     outline: none;
@@ -459,7 +464,7 @@ border: none;
     width: 450px;
 }
 
-.subscribe>.sub_form>input[type="submit"]{
+.subscribe>.sub_form>input[type="submit"] {
     font-family: Inter;
     font-size: 15px;
     padding: 20px;
@@ -468,7 +473,7 @@ border: none;
     border-radius: 0 25px 25px 0;
     background: #F00;
     color: white;
-cursor: pointer;
+    cursor: pointer;
 }
 
 /* footer part */
