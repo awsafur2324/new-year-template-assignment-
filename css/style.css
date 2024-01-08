@@ -164,6 +164,28 @@ main {
     font-weight: 700;
     padding: 16px 32px;
     border: none;
+    position: relative;
+    box-shadow: 1px 5px 50px -1px rgba(0, 0, 0, 0.521);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.event_location>button:after {
+    content: '»';
+    position: absolute;
+    bottom: 15px;
+    opacity: 0;
+    right: -20px;
+    font-size: 25px;
+}
+
+.event_location>button:hover {
+    padding: 16px 45px 16px 32px;
+}
+
+.event_location>button:hover:after {
+    right: 15px;
+    opacity: 1;
 }
 
 /* New Year offers */
@@ -249,6 +271,7 @@ main {
 }
 
 /* Holydays sales */
+
 .holiday_sale {
     width: 100%;
     display: flex;
@@ -316,4 +339,68 @@ main {
 
 .girls {
     right: 0;
+}
+
+/* Portfolio */
+.portfolio {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.portfolio>h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.portfolio>p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.img_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 48px 0 120px 0;
+}
+
+.img_box {
+    width: 424px;
+    height: 450px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.img_box>img {
+    transform: scale(1);
+    transition: all 200ms ease-in-out;
+}
+
+.img_box:hover>img {
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    
 }
