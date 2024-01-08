@@ -196,7 +196,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .newyear_offer>.left_section {
@@ -278,6 +278,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
 }
 
 .holiday_sale>h3 {
@@ -328,7 +329,7 @@ main {
 
 .box {
     z-index: 1;
-
+border-radius: 15px 0 0 15px;
 }
 
 .discount {
@@ -344,7 +345,7 @@ main {
 /* Portfolio */
 .portfolio {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 .portfolio>h4 {
@@ -398,11 +399,82 @@ main {
     opacity: 0.7;
 }
 
-/* footer */
+/* Subscribe part */
+.subscribe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 120px;
+    background-color: rgba(1, 16, 19, 0.103);
+    box-shadow: 5px 10px 5px -5px rgba(0, 0, 0, 0.521);
+}
+.subscribe>img{
+    margin-top: 60px;
+}
+.subscribe>h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.subscribe>p{
+    text-align: center;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.subscribe>.sub_form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 0 0 100px 0;
+border: none;
+}
+.subscribe>.sub_form>input[type="email"]{
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    font-family: Inter;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+    transition: all 200ms ease-in-out;
+}
+.subscribe>.sub_form>input[type="email"]:focus{
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 450px;
+}
+
+.subscribe>.sub_form>input[type="submit"]{
+    font-family: Inter;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background: #F00;
+    color: white;
+cursor: pointer;
+}
+
+/* footer part */
 
 footer {
     width: 100%;
-
     background: #070211;
     color: #FFF;
 }
@@ -470,7 +542,8 @@ footer {
     gap: 24px;
     margin: 48px 0;
 }
-.f_icon>a{
+
+.f_icon>a {
     text-decoration: none;
     cursor: pointer;
 }
@@ -492,6 +565,13 @@ footer {
     font-weight: 500;
     line-height: normal;
 }
-.f_last_para>p:nth-child(2){
+
+.f_last_para>p:nth-child(1)>span {
+    color: rgb(34, 176, 201);
+}
+
+.f_last_para>p:nth-child(2) {
     cursor: pointer;
+    color: #F00;
+    text-transform: capitalize;
 }
