@@ -174,6 +174,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .newyear_offer>.left_section {
@@ -245,4 +246,74 @@ main {
     font-weight: 400;
     line-height: 32px;
     margin: 16px 0px 22px 0px;
+}
+
+/* Holydays sales */
+.holiday_sale {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday_sale>h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday_sale>h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 16px 0 28px 0;
+}
+
+.holiday_sale>h1>span {
+    color: #F00;
+}
+
+.holiday_sale>p {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.bg_discount {
+    margin: 64px 0 120px 0;
+    width: 100%;
+    height: 662px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.bg_discount img {
+    position: absolute;
+
+}
+
+.red_bar {
+    bottom: 0;
+}
+
+.box {
+    z-index: 1;
+
+}
+
+.discount {
+    top: 77px;
+    right: 276px;
+    z-index: 1;
+}
+
+.girls {
+    right: 0;
 }
